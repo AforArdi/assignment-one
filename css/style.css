@@ -4,6 +4,7 @@
     list-style: none;
     box-sizing: border-box;
 }
+
 /* shared styles */
 .font-inter {
   font-family: "Inter", sans-serif;
@@ -31,11 +32,6 @@
     font-weight: 700;
     color: #001931;
 }
-
-/* .btn-green{
-    background-color: #30B868;
-}
-.btn-light-green{} */
 
 /* main styles */
 header {
