@@ -189,3 +189,37 @@ header .btn-earlyaccess {
 }
 
 
+#idea {
+    margin-top: 120px;
+}
+#idea .idea-container .idea-about {
+    max-width: 700px;
+}
+#idea .idea-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin: 0 auto;
+}
+#idea .idea-container .idea-about {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: left;
+}
+#idea .idea-container .tick ul li {
+    margin-bottom: 16px;
+}
+#idea .idea-container .idea-about .p1 {
+    font-size: 16px;
+    color: #30B868;
+}
+
+#idea .idea-container .idea-about .p2 {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+
+
