@@ -25,18 +25,30 @@
 }
 .btn:hover {
     cursor: pointer;
-    box-shadow: 0 4px 10px #30B868;
+    box-shadow: 0 4px 8px #30B868;
+}
+.btn-transparent:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px #FAFAFA;
 }
 .h3-style {
     font-size: 48px;
     font-weight: 700;
     color: #001931;
 }
+.gap-16 {
+    gap: 16px;
+}
+.gap-30 {
+    gap: 30px;
+}
+.flex {
+    display: flex;
+}
 
 /* main styles */
 header {
     max-height: 92px;
-    display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 16px auto;
@@ -68,7 +80,6 @@ header .btn-earlyaccess {
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 675px;
-
     display: flex;
     align-items: center;     /* vertical center */
     justify-content: center;
@@ -79,7 +90,6 @@ header .btn-earlyaccess {
     flex-direction: column;
     align-items: center;
     /* justify-content: center; */
-    gap: 30px;
 }
 #banner .banner-container .earlyaccess {
     background-color: #FFFFFF;
@@ -126,18 +136,12 @@ header .btn-earlyaccess {
     /* margin: 0 auto; */
     color: #FFFFFF;
 }
-#banner .banner-btn {
-    display: flex;
-    gap: 16px;
-}
 
 
 #notes .notes-container .title {
     padding-top: 70px;
     text-align: center;
-    display: flex;
     flex-direction: column;
-    gap: 16px;
 }
 .notes-container .title p {
     font-size: 16px;
@@ -155,14 +159,12 @@ header .btn-earlyaccess {
     gap: 24px;
 }
 #notes .cards-container .card {
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 322px;
     height: 300px;
     border-radius: 8px;
-    gap: 16px;
     padding: 24px;
     text-align: center;
     background-color: #FFFFFF;
@@ -174,7 +176,6 @@ header .btn-earlyaccess {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -196,15 +197,12 @@ header .btn-earlyaccess {
     max-width: 700px;
 }
 #idea .idea-container {
-    display: flex;
     justify-content: center;
     align-items: center;
     gap: 60px;
 }
 #idea .idea-container .idea-about {
-    display: flex;
     flex-direction: column;
-    gap: 16px;
     text-align: left;
 }
 #idea .idea-container .tick ul li {
@@ -228,7 +226,6 @@ header .btn-earlyaccess {
     margin: 0 auto;
 }
 #think .think-container {
-    display: flex;
     flex-direction: column;
     align-items: center;
     padding: 80px 40px;
@@ -236,16 +233,12 @@ header .btn-earlyaccess {
 #think .think-container .tc-title {
     text-align: center;
     margin-bottom: 24px;
-    display: flex;
     flex-direction: column;
-    gap: 16px;
 }
 #think .think-container .tc-earlyaccess {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 16px;
 }
 .think-container .tc-title p {
     font-size: 16px;
@@ -262,7 +255,6 @@ header .btn-earlyaccess {
 footer {
     background-color: #001931;
     height: 348px;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -271,7 +263,6 @@ footer {
 }
 footer .fcontainer {
     width: 1360px;
-    display: flex;
     justify-content: space-between;
 }
 .fcontainer .fsocial p {
@@ -281,8 +272,6 @@ footer .fcontainer {
     color: #FFFFFF;
 }
 .fcontainer .fsocial .social-links {
-    display: flex;
-    gap: 16px;
     margin-top: 16px;
 }
 .fcontainer .fsocial .social-links a {
@@ -294,9 +283,7 @@ footer .fcontainer {
 }
 footer .copyright-container {
     text-align: center;
-    display: flex;
     flex-direction: column;
-    gap: 30px;
 }
 footer .copyright-container .hr hr {
     width: 1360px;
