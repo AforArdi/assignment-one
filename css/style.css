@@ -135,6 +135,7 @@ header .btn-earlyaccess {
     line-height: 24px;
     /* margin: 0 auto; */
     color: #FFFFFF;
+    font-weight: 400;
 }
 
 
@@ -146,7 +147,8 @@ header .btn-earlyaccess {
 .notes-container .title p {
     font-size: 16px;
     line-height: 20px;
-    color: #627382;;
+    color: #627382;
+    font-weight: 400;
 }
 #notes .cards-container{
     max-width: 1360px;
@@ -191,7 +193,7 @@ header .btn-earlyaccess {
 
 
 #idea {
-    margin: 120px;
+    margin: 120px 0;
 }
 #idea .idea-container .idea-about {
     max-width: 700px;
@@ -212,7 +214,6 @@ header .btn-earlyaccess {
     font-size: 16px;
     color: #30B868;
 }
-
 #idea .idea-container .idea-about .p2 {
     font-size: 16px;
     line-height: 20px;
