@@ -130,3 +130,62 @@ header .btn-earlyaccess {
     display: flex;
     gap: 16px;
 }
+
+
+#notes .notes-container .title {
+    padding-top: 70px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.notes-container .title p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;;
+}
+#notes .cards-container{
+    max-width: 1360px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 44px;
+    gap: 24px;
+}
+#notes .cards-container .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 322px;
+    height: 300px;
+    border-radius: 8px;
+    gap: 16px;
+    padding: 24px;
+    text-align: center;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 8px 0 #f3f0f0be;
+    border: none;
+}
+.cards-container .card .card-image {
+    background-color: #F95555;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cards-container .card h4 {
+    font-size: 24px;
+    font-weight: 600;
+}
+.cards-container .card p {
+    font-size: 18px;
+    line-height: 20px;
+    color: #627382;
+}
+
+
