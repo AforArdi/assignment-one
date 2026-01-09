@@ -22,6 +22,10 @@
     background-color: transparent;
     border: 1px solid white;
 }
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 10px #30B868;
+}
 .h3-style {
     font-size: 48px;
     font-weight: 700;
